@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://speech-emotion-api-1bx1.onrender.com';
 
 export async function predictEmotion(file) {
   const formData = new FormData();
