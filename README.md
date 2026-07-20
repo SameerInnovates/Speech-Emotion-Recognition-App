@@ -1,6 +1,6 @@
 # Speech Emotion Recognition
 
-A full-stack deep learning application that predicts human emotion from speech audio. Built as part of the CodeAlpha Machine Learning Internship (Task 2).
+A full-stack deep learning application that predicts human emotion from speech audio. Built as part of the CodeAlpha Machine Learning Internship.
 
 **Live Demo:** https://speech-emotion-recognition-app-ky1m-phi.vercel.app  
 
