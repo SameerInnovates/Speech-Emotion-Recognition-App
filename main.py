@@ -10,6 +10,8 @@ import os
 from preprocessing import extract_features
 
 app = FastAPI(title="Speech Emotion Recognition API")
+import os
+os.makedirs("uploads", exist_ok=True)
 
 # Allow our future React frontend (running on a different port) to talk to this API
 app.add_middleware(
