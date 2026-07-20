@@ -3,7 +3,6 @@
 A full-stack deep learning application that predicts human emotion from speech audio. Built as part of the CodeAlpha Machine Learning Internship (Task 2).
 
 **Live Demo:** https://speech-emotion-recognition-app-ky1m-phi.vercel.app  
-**Backend API:** https://speech-emotion-api-1bx1.onrender.com
 
 ## Overview
 
@@ -28,19 +27,21 @@ Upload a short voice recording, and the app predicts the emotion behind it — a
 
 ## Project Structure
 
+```
 Speech-Emotion-Recognition-App/
 ├── frontend/              # React (Vite) application
 │   └── src/
 │       ├── components/    # AudioUploader, PredictionResult, LoadingBars, Hero
-│       ├── services/       # API client
-│       └── emotions.js     # Emotion color/emoji mapping
-├── models/                 # Trained model artifacts
+│       ├── services/      # API client
+│       └── emotions.js    # Emotion color/emoji mapping
+├── models/                # Trained model artifacts
 │   ├── model.keras
 │   ├── label_encoder.pkl
-│   └── config.json          # Normalization stats + MFCC settings
-├── main.py                  # FastAPI backend (/health, /predict)
-├── preprocessing.py         # MFCC extraction matching training pipeline
+│   └── config.json        # Normalization stats + MFCC settings
+├── main.py                # FastAPI backend (/health, /predict)
+├── preprocessing.py       # MFCC extraction matching training pipeline
 └── requirements.txt
+```
 
 ## Running Locally
 
